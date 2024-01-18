@@ -11,6 +11,7 @@ body {
     background-image:url(../img/sfondo.png);
     background-position: center
     ;
+    font-family: "Poppins", sans-serif;
 
   }
 
@@ -18,7 +19,9 @@ body {
 header {
     background: rgb(0,153,187);
 background: linear-gradient(180deg, rgba(0,153,187,1) 16%, rgb(0, 96, 121) 100%);
-margin: 2vh
+margin: 2vh;
+box-shadow: 0 2px 12px grey;
+
 
 }
 
@@ -45,7 +48,7 @@ main{
     
     }
 h1 {
-    font-size: 45px;
+    font-size: 39px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 35px;
@@ -55,6 +58,7 @@ h1 {
     
     text-align: start;
     padding-left: 15px;
+    font-weight: 400;
 }
 
 .title2{
@@ -64,12 +68,25 @@ h1 {
 
 p, h2{ 
     padding: 15px;
+    line-height: 25px;
 }
 
+article ul{
+   list-style-type: disc;
+   margin-inline-start: 50px;
+}
+
+
+article ol{
+    list-style-type: decimal;
+    margin-inline-start: 50px;
+}
+ 
 li {
-    padding-left: 40px;
-    padding-top: 3px;
+    padding-left: 11px;
+    padding-top: 10px;
     padding-bottom: 3px;
+    line-height: 25px;
 }
 
 .formattazione {
@@ -89,8 +106,6 @@ li {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-/* TABELLE */
-
 th{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -103,6 +118,9 @@ td{
     padding-bottom: 10px;
     padding-inline: 15px;
 }
+
+/* TABELLE */
+
 
 .headingrow {
 
@@ -138,21 +156,22 @@ border-bottom: solid 1px rgb(149, 156, 255);
 
 .titlenws {
     font-size: 28px;
+    font-weight: 400;
 }
 
 /* FORM */
 
 .inputemail {
     padding: 5px;
+    border: hidden;
 
 
 }
 
 
 
-
 .buttonemail {
-background-color: rgb(0, 15, 226);
+background-color: #4976CF;
     padding: 2px;
     color: white;
 }
@@ -197,10 +216,10 @@ footer  {
     text-align: center;
     padding: 25px;
     margin-top: 20px;
+    box-shadow: 0 2px 12px grey;
+   }
 
-    
-       
-    }
-
- 
+ footer span {
+    line-height: 25px;
+ }
 

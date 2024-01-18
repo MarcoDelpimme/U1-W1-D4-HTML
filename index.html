@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link
       rel="stylesheet"
@@ -27,9 +37,15 @@
         <nav style="text-align: center">
           <span>EPICODE - IL BLOG DEI DEVELOPERS</span>
           <ul>
-            <li style="padding-top: 20px" class="headerlist">HOME</li>
-            <li class="headerlist">ARTICOLI</li>
-            <li style="padding-bottom: 30px" class="headerlist">LAVORA CON NOI</li>
+            <li style="padding-top: 20px" class="headerlist">
+              <i class="fas fa-angle-double-right"></i>HOME<i class="fas fa-angle-double-left"></i>
+            </li>
+            <li class="headerlist">
+              <i class="fas fa-angle-double-right"></i>ARTICOLI<i class="fas fa-angle-double-left"></i>
+            </li>
+            <li style="padding-bottom: 30px" class="headerlist">
+              <i class="fas fa-angle-double-right"></i>LAVORA CON NOI<i class="fas fa-angle-double-left"></i>
+            </li>
           </ul>
         </nav>
       </div>
@@ -37,7 +53,10 @@
     <main>
       <article>
         <h1 class="titolo">Come creare un template per i post</h1>
-        <p style="color: rgb(141, 141, 141)">di Mario Rossi - <span>pubblicato il 25-10-2020</span></p>
+        <p style="color: rgb(141, 141, 141)">
+          <i class="fas fa-pen-square"></i>di Mario Rossi - <i class="fas fa-clock"></i>
+          <span>pubblicato il 25-10-2020</span>
+        </p>
         <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le
           <strong style="color: purple">parti comuni</strong> da applicare a tutte le pagine
@@ -57,7 +76,7 @@
         <h2 class="title2">Formattazione del codice</h2>
         <p class="formattazione">
           Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
-          <strong>selezionare con i CSS</strong>. Perciò i passi saranno:
+          <strong style="color: #7c0092">selezionare con i CSS</strong>. Perciò i passi saranno:
         </p>
         <ol>
           <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
@@ -67,7 +86,7 @@
         <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
         <div id="tabella">
           <table class="toptable">
-            <caption style="font-style: italic">
+            <caption style="font-style: italic; font-weight: 600">
               Diffusione dei CSS
             </caption>
             <thead>
@@ -108,7 +127,11 @@
         </div>
         <p>
           Un test di validazione potrà essere fatto tramite il
-          <a href="https://jigsaw.w3.org/css-validator/" target="blank" title="Validatore CSS online del W3C"
+          <a
+            href="https://jigsaw.w3.org/css-validator/"
+            target="blank"
+            title="Validatore CSS online del W3C"
+            style="color: #017491"
             >tool online</a
           >
           dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei
@@ -146,30 +169,44 @@
         <h2 class="art-title2">ARTICOLI CORRELATI</h2>
         <div class="container-arti">
           <div class="a-0123">
-            <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
+            <a
+              style="color: #00a0c7"
+              href="post2.html"
+              title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
               >Validare il codice HTML</a
             >
-            <p>Categoria: develop</p>
+            <p><i class="fas fa-tag"></i>Categoria: develop</p>
           </div>
-          <div class="dates"><p>Data: 18-9-2020</p></div>
+          <div class="dates">
+            <p><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
+          </div>
         </div>
 
         <div class="container-arti">
           <div class="a-0123">
-            <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
+            <a
+              style="color: #00a0c7"
+              href="post3.html"
+              title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
               >Correggere la sintassi</a
             >
-            <p>Categoria: develop</p>
+            <p><i class="fas fa-tag"></i>Categoria: develop</p>
           </div>
-          <div class="dates"><p>Data: 16-9-2020</p></div>
+          <div class="dates">
+            <p><i class="fas fa-calendar-alt"></i>Data: 16-9-2020</p>
+          </div>
         </div>
 
         <div class="container-arti">
           <div class="a-0123">
-            <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
-            <p>Categoria: ottimizzazione</p>
+            <a style="color: #00a0c7" href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina"
+              >Meno Kb nella pagina</a
+            >
+            <p><i class="fas fa-tag"></i>Categoria: ottimizzazione</p>
           </div>
-          <div class="dates"><p>Data: 30-9-2020</p></div>
+          <div class="dates">
+            <p><i class="fas fa-calendar-alt"></i>Data: 30-9-2020</p>
+          </div>
         </div>
       </aside>
     </main>
@@ -179,7 +216,7 @@
       <div>
         <span style="color: white"
           >Testata online di Mario Rossi, registrata con <br />prot. n.213/2018 - via Luigi Einaudi 2- Milano. <br />
-          P.IVA 00112233. <a href="#">info@epicode.school</a></span
+          P.IVA 00112233. <a style="color: #fb0bee" href="#">info@epicode.school</a></span
         >
       </div>
     </footer>
