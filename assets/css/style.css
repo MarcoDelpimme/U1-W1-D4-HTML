@@ -1,0 +1,206 @@
+/* IMPOSTAZIONI GENERALI */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width:450px ;
+    background-image:url(../img/sfondo.png);
+    background-position: center
+    ;
+
+  }
+
+/* HEADER */
+header {
+    background: rgb(0,153,187);
+background: linear-gradient(180deg, rgba(0,153,187,1) 16%, rgb(0, 96, 121) 100%);
+margin: 2vh
+
+}
+
+.headerlist{
+    padding: 0;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+
+.logo {
+    padding:25px;
+    width: 50%;
+
+}
+/* MAIN */
+
+main{
+        background: rgb(255, 255, 255);
+     box-shadow: 0 2px 12px grey;
+    margin: 2vh;
+    padding-bottom: 15px;
+    
+    
+    }
+h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+.titolo {
+    
+    text-align: start;
+    padding-left: 15px;
+}
+
+.title2{
+    padding-bottom: 0;
+}
+
+
+p, h2{ 
+    padding: 15px;
+}
+
+li {
+    padding-left: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.formattazione {
+    padding-top: 0;
+}
+
+.codetag {
+    border: solid grey 1px;
+    border-radius: 8px;
+    background-color: rgb(211, 211, 211, 50%);
+    
+}
+
+#video {
+       text-align: center;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 15px;
+    
+}
+
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 15px;
+}
+
+.headingrow {
+
+    color: white;
+    background-color:#3469D0 ;
+}
+
+
+.colorow {
+    background-color: rgb(206, 206, 206);
+    border-bottom: solid  rgb(168, 168, 168) 1px;
+    border-top: solid rgb(168, 168, 168) 1px;
+}
+
+
+#tabella {
+    text-align: center;
+}
+
+.toptable {
+text-align: center;
+margin-inline: auto;
+margin-bottom: 8px;
+border-bottom: solid 1px rgb(149, 156, 255);
+}
+    
+.news {
+    text-align: center;
+    margin: 2vh;
+    background-color: lightgrey;
+    padding-bottom: 16px;
+}
+
+.titlenws {
+    font-size: 28px;
+}
+
+/* FORM */
+
+.inputemail {
+    padding: 5px;
+
+
+}
+
+
+
+
+.buttonemail {
+background-color: rgb(0, 15, 226);
+    padding: 2px;
+    color: white;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+.articles {text-align: center;
+margin: 2vh;
+
+}
+
+.art-title2 {
+    margin: 22px;
+    font-size: 28px;
+}
+
+.container-arti {
+
+    border: solid 1px lightgrey;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    padding-top: 12px;
+
+}
+
+.a-0123 {
+    text-align: start;
+    padding-left: 10px;
+}
+
+.dates {
+
+    text-align: end;
+}
+
+/* FOOTER */
+
+footer  {
+        background: rgb(0, 68, 83);
+    background: linear-gradient(180deg, rgb(0, 60, 73) 16%, rgb(0, 86, 107) 100%);
+    margin: 2vh;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+
+    
+       
+    }
+
+ 
+
